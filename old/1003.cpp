@@ -9,10 +9,11 @@ int binarySearch(int l,int r,double t)
 	if(leng[mid]>t) return binarySearch(l,mid,t);
 	else // leng[mid]<t;
 	{
-		if(leng[mid+1]<t) binarySearch(mid+1,r,t);
+		if(leng[mid+1]<t) return binarySearch(mid+1,r,t);
 		else return mid+1;
 	}
 }
+
 int main()
 {
 	leng[1]=0.5;
