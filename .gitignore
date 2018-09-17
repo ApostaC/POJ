@@ -1,0 +1,7 @@
+#swp file
+
+#binary file
+onGoing/*
+!onGoing/*.cpp
+!onGoing/*.c
+!onGoing/Makefile
